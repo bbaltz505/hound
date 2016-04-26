@@ -321,9 +321,9 @@ var SearchBar = React.createClass({
 
     this.setParams(this.props);
 
-    if (this.hasAdvancedValues()) {
-      this.showAdvanced();
-    }
+    //if (this.hasAdvancedValues()) {
+    //  this.showAdvanced();
+    //}
 
     q.focus();
   },
